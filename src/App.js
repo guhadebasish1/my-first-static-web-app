@@ -1,8 +1,10 @@
 import React from 'react';
-
+import GithubUserInfo from './GithubUserInfo'
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return <>
+  <h1>WebCenterpoint</h1>
+    <GithubUserInfo />
+  </>;
 }
 
 export default App;
